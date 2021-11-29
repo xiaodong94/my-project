@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 15
+    },
+    "auditLog": "/Users/dongshx/Documents/study/my-project/logs/my-practice/.c67e971bb95cc76fae75e9e6fd0a5c1025ea5dec-audit.json",
+    "files": [
+        {
+            "date": 1637923703124,
+            "name": "/Users/dongshx/Documents/study/my-project/logs/my-practice/app.verbose.2021.11.26.18.log",
+            "hash": "729424f193e22cc8e133518b17e915ab"
+        },
+        {
+            "date": 1637924548591,
+            "name": "/Users/dongshx/Documents/study/my-project/logs/my-practice/app.verbose.2021.11.26.19.log",
+            "hash": "8dc0156cf2fa6c2e263786cc04b54f97"
+        }
+    ]
+}

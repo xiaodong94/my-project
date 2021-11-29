@@ -1,0 +1,56 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A platform using koa and ts and react",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV='local' nodemon bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaodong94/my-project.git"
+  },
+  "author": "dongshx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaodong94/my-project/issues"
+  },
+  "homepage": "https://github.com/xiaodong94/my-project#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "handlebars": "^4.7.7",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compress": "^5.0.1",
+    "koa-helmet": "^6.1.0",
+    "koa-json": "^2.0.2",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^10.0.0",
+    "koa-router-scheme": "^0.0.9",
+    "koa-safe-jsonp": "^1.0.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^7.0.1",
+    "koa-visit-logger": "^1.0.3",
+    "zookeeper": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "autoprefixer": "^10.3.1",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "css-modules-require-hook": "^4.2.3",
+    "@babel/core": "^7.14.6",
+    "@babel/register": "^7.14.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  }
+}
